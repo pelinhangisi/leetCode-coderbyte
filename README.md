@@ -6,5 +6,5 @@ I get used to it. I'll be listing the names of the problems I was able to solve 
 
 ### EASY
 
-* TwoSum
-* PalindromeNumber
+* twoSum
+* palindromeNumber
