@@ -6,5 +6,6 @@ I get used to it. I'll be listing the names of the problems I was able to solve 
 
 ### EASY
 
-* twoSum
-* palindromeNumber
+* Two Sum
+* Palindrome Number
+* Roman to Integer
