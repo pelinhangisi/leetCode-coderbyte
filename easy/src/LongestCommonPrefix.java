@@ -17,29 +17,31 @@ public class LongestCommonPrefix {
             return "";
         }
 
-        for(int i = 0; i<strs[0].length(); i++){
-            char c = strs[0].charAt(i);
-            for(int j =1; j< strs.length; j++){
-                if(i >= strs[i].length() || c != strs[j].charAt(i)){
-                    return strs[0].substring(0,i);
-                }
+        String result = strs[0];
+        int i = 1;
+        while(i < strs.length)
+        {
+            while(strs[i].indexOf(result) != 0)
+            {
+                result = result.substring(0,result.length()-1);
             }
+            i++;
         }
-        return strs[0];
+        return result;
     }
 
     public static void main(String[] args) {
 
         String[] strs = new String[]{"flower","flow","flight"};
-        String prefix = longestCommonPrefix(strs);
-        System.out.println(prefix);
+        String result = longestCommonPrefix(strs);
+        System.out.println(result);
 
         String[] strs2 = new String[]{"dog","racecar","car"};
-        String prefix2 = longestCommonPrefix(strs2);
-        System.out.println(prefix2);
+        String result2 = longestCommonPrefix(strs2);
+        System.out.println(result2);
 
         String[] strs3 = new String[]{"pelin","perde","pergel"};
-        String prefix3 = longestCommonPrefix(strs3);
-        System.out.println(prefix3);
+        String result3 = longestCommonPrefix(strs3);
+        System.out.println(result3);
     }
 }
