@@ -10,3 +10,4 @@ I get used to it. I'll be listing the names of the problems I was able to solve 
 * Palindrome Number
 * Roman to Integer
 * Longest Common Prefix
+* Valid Parentheses
