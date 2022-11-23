@@ -4,10 +4,15 @@ It is important in solving algorithms as much as making projects. So I set mysel
 I will solve algorithm questions over LeetCode and share them under this repo. I will try to solve easy problems until 
 I get used to it. I'll be listing the names of the problems I was able to solve below.
 
-### EASY
+### LEETCODE - EASY
 
 * Two Sum
 * Palindrome Number
 * Roman to Integer
 * Longest Common Prefix
 * Valid Parentheses
+
+### CODERBYTE - EASY
+
+* Vowel Count
+

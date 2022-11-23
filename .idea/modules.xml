@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/easy/easy.iml" filepath="$PROJECT_DIR$/easy/easy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coderbyte-easy/coderbyte-easy.iml" filepath="$PROJECT_DIR$/coderbyte-easy/coderbyte-easy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leetCode-easy/easy.iml" filepath="$PROJECT_DIR$/leetCode-easy/easy.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/leetCode.iml" filepath="$PROJECT_DIR$/.idea/leetCode.iml" />
     </modules>
   </component>
