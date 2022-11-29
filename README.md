@@ -15,4 +15,5 @@ I get used to it. I'll be listing the names of the problems I was able to solve 
 ### CODERBYTE - EASY
 
 * Vowel Count
+* Swap Case
 

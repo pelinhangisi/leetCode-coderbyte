@@ -24,6 +24,7 @@ public class VowelCount {
         return count;
     }
 
+
     public static void main(String[] args) {
 
         System.out.println("Count : " + VowelCount("hello"));
